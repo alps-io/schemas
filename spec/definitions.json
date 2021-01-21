@@ -18,6 +18,9 @@
                 },
                 "value": {
                     "$ref": "#/definitions/value"
+                },
+                "contentType": {
+                    "$ref": "#/definitions/contentType"
                 }
             },
             "additionalProperties": false
@@ -121,6 +124,10 @@
                     }
                 }
             ]
+        },
+        "contentType": {
+            "type": "string",
+            "description": "A media-type values registered with the IANA"
         }
     }
 }
