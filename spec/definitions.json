@@ -18,6 +18,12 @@
                 },
                 "value": {
                     "$ref": "#/definitions/value"
+                },
+                "contentType": {
+                    "$ref": "#/definitions/contentType"
+                },
+                "tag": {
+                    "$ref": "definitions.json#/definitions/tag"
                 }
             },
             "additionalProperties": false
@@ -74,6 +80,9 @@
                     },
                     "value": {
                         "$ref": "#/definitions/value"
+                    },
+                    "tag": {
+                        "$ref": "definitions.json#/definitions/tag"
                     }
                 },
                 "additionalProperties": false
@@ -106,6 +115,9 @@
                 },
                 "href": {
                     "$ref": "#/definitions/href"
+                },
+                "tag": {
+                    "$ref": "definitions.json#/definitions/tag"
                 }
             }
         },
@@ -121,6 +133,14 @@
                     }
                 }
             ]
+        },
+        "contentType": {
+            "type": "string",
+            "description": "A media-type values registered with the IANA"
+        },
+        "tag": {
+            "type": "string",
+            "description": "A shared identity that parsers and other document consumers can use"
         }
     }
 }

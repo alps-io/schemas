@@ -1,0 +1,22 @@
+{
+    "$schema" : "https://alps-io.github.io/schemas/alps.json",
+    "alps": {
+        "doc": {
+            "contentType": "text/html"
+        },
+        "ext": [
+            {
+                "id": "foo",
+                "tag": "tag1"
+            }
+        ],
+        "link": {
+            "tag": ""
+        },
+        "descriptor": [
+            {
+                "id": "foo",
+                "doc": {
+                    "tag": "tag1"
+                }
+            }

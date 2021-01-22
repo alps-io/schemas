@@ -33,6 +33,9 @@
     "rel": {
       "$ref": "definitions.json#/definitions/rel"
     },
+    "tag": {
+      "$ref": "definitions.json#/definitions/tag"
+    },
     "descriptor": {
       "type": "array",
       "items": {
