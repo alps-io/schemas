@@ -79,7 +79,6 @@
             </xs:documentation>
         </xs:annotation>
     </xs:element>
-
     <xs:complexType name="descriptorType" mixed="true">
         <xs:sequence>
             <xs:choice minOccurs="0" maxOccurs="unbounded">
@@ -104,7 +103,6 @@
         <xs:attribute name="ext" type="xs:string"/>
         <xs:attribute name="name" type="xs:string"/>
         <xs:attribute name="rt" type="xs:element"/>
-        <!-- proposed attribute, @see https://groups.google.com/g/alps-io/c/xYgRcCpg8ks -->
         <xs:attribute name="text" type="xs:anyURI"/>
         <xs:attribute name="def" type="xs:anyURI"/>
         <xs:attribute name="tag" type="xs:anyURI"/>
