@@ -72,6 +72,14 @@
             </xs:documentation>
         </xs:annotation>
     </xs:element>
+    <xs:element name="contentType" type="xs:string">
+        <xs:annotation>
+            <xs:documentation>
+                A media-type values registered with the IANA.
+            </xs:documentation>
+        </xs:annotation>
+    </xs:element>
+
     <xs:complexType name="descriptorType" mixed="true">
         <xs:sequence>
             <xs:choice minOccurs="0" maxOccurs="unbounded">
@@ -133,6 +141,7 @@
                         </xs:restriction>
                     </xs:simpleType>
                 </xs:attribute>
+                <xs:attribute name="contentType" type="xs:string" />
             </xs:extension>
         </xs:simpleContent>
     </xs:complexType>
