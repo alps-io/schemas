@@ -107,7 +107,7 @@
         <!-- proposed attribute, @see https://groups.google.com/g/alps-io/c/xYgRcCpg8ks -->
         <xs:attribute name="text" type="xs:anyURI"/>
         <xs:attribute name="def" type="xs:anyURI"/>
-        <xs:attribute name="tags" type="xs:anyURI"/>
+        <xs:attribute name="tag" type="xs:anyURI"/>
         <xs:attribute name="rel" type="xs:string"/>
         <xs:anyAttribute/>
     </xs:complexType>
@@ -121,11 +121,13 @@
         </xs:attribute>
         <xs:attribute name="href" type="xs:string"/>
         <xs:attribute name="value" type="xs:string"/>
+        <xs:attribute name="tag" type="xs:string"/>
         <xs:anyAttribute/>
     </xs:complexType>
     <xs:complexType name="linkType">
         <xs:attribute name="rel" type="xs:string"/>
         <xs:attribute name="href" type="xs:anyURI"/>
+        <xs:attribute name="tag" type="xs:string"/>
         <xs:anyAttribute/>
     </xs:complexType>
     <xs:complexType name="docType">
@@ -142,6 +144,7 @@
                     </xs:simpleType>
                 </xs:attribute>
                 <xs:attribute name="contentType" type="xs:string" />
+                <xs:attribute name="tag" type="xs:string" />
             </xs:extension>
         </xs:simpleContent>
     </xs:complexType>
