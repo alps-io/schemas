@@ -89,7 +89,7 @@
         </xs:sequence>
         <!-- documented attribute -->
         <xs:attribute name="href" type="xs:anyURI"/>
-        <xs:attribute name="id" type="xs:string"/>
+        <xs:attribute name="id" type="xs:string" use="required"/>
         <xs:attribute name="type">
             <xs:simpleType>
                 <xs:restriction base="xs:string">
@@ -112,7 +112,7 @@
         <xs:anyAttribute/>
     </xs:complexType>
     <xs:complexType name="extType">
-        <xs:attribute name="id" type="xs:string" >
+        <xs:attribute name="id" type="xs:string" use="required">
             <xs:annotation>
                 <xs:documentation>
                     `ext` element extends the ALPS document with author-specific information.
