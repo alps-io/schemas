@@ -21,6 +21,9 @@
     "name": {
       "$ref": "definitions.json#/definitions/name"
     },
+    "title": {
+      "$ref": "definitions.json#/definitions/title"
+    },
     "type": {
       "$ref": "definitions.json#/definitions/type"
     },
