@@ -3,10 +3,10 @@
            xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning"
            vc:minVersion="1.1">
     <xs:annotation>
-        <xs:documentation source="http://alps.io/spec/index.html">
+        <xs:documentation source="https://alps.io/spec/index.html">
             A data format for defining simple descriptions of application-level semantics
         </xs:documentation>
-        <xs:appinfo source="http://alps.io/spec/index.html"/>
+        <xs:appinfo source="https://alps.io/spec/index.html"/>
     </xs:annotation>
     <xs:element name="alps" type="alpsType"/>
     <xs:complexType name="alpsType">
