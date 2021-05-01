@@ -105,7 +105,7 @@
         <xs:attribute name="title" type="xs:string"/>
         <xs:attribute name="rt" type="xs:string"/>
         <xs:attribute name="def" type="xs:anyURI"/>
-        <xs:attribute name="tag" type="xs:anyURI"/>
+        <xs:attribute name="tag" type="xs:string"/>
         <xs:attribute name="rel" type="xs:string"/>
         <xs:anyAttribute/>
     </xs:complexType>
