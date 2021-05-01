@@ -103,7 +103,7 @@
         <xs:attribute name="ext" type="xs:string"/>
         <xs:attribute name="name" type="xs:string"/>
         <xs:attribute name="title" type="xs:string"/>
-        <xs:attribute name="rt" type="xs:element"/>
+        <xs:attribute name="rt" type="xs:string"/>
         <xs:attribute name="text" type="xs:anyURI"/>
         <xs:attribute name="def" type="xs:anyURI"/>
         <xs:attribute name="tag" type="xs:anyURI"/>
