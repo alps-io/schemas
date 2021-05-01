@@ -3,10 +3,10 @@
            xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning"
            vc:minVersion="1.1">
     <xs:annotation>
-        <xs:documentation source="http://alps.io/spec/index.html">
+        <xs:documentation source="https://alps.io/spec/index.html">
             A data format for defining simple descriptions of application-level semantics
         </xs:documentation>
-        <xs:appinfo source="http://alps.io/spec/index.html"/>
+        <xs:appinfo source="https://alps.io/spec/index.html"/>
     </xs:annotation>
     <xs:element name="alps" type="alpsType"/>
     <xs:complexType name="alpsType">
@@ -103,10 +103,9 @@
         <xs:attribute name="ext" type="xs:string"/>
         <xs:attribute name="name" type="xs:string"/>
         <xs:attribute name="title" type="xs:string"/>
-        <xs:attribute name="rt" type="xs:element"/>
-        <xs:attribute name="text" type="xs:anyURI"/>
+        <xs:attribute name="rt" type="xs:string"/>
         <xs:attribute name="def" type="xs:anyURI"/>
-        <xs:attribute name="tag" type="xs:anyURI"/>
+        <xs:attribute name="tag" type="xs:string"/>
         <xs:attribute name="rel" type="xs:string"/>
         <xs:anyAttribute/>
     </xs:complexType>
