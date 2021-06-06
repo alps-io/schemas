@@ -17,7 +17,6 @@
         </xs:annotation>
         <xs:sequence>
             <xs:choice minOccurs="0" maxOccurs="unbounded">
-                <xs:element ref="version" minOccurs="0"/>
                 <xs:element ref="doc" minOccurs="0"/>
                 <xs:element ref="link" minOccurs="0"/>
                 <xs:element ref="title" minOccurs="0"/>
@@ -26,14 +25,14 @@
                 <xs:any />
             </xs:choice>
         </xs:sequence>
+        <xs:attribute name="version" type="xs:string">
+            <xs:annotation>
+                <xs:documentation>
+                    Indicates the version of the ALPS specification used in the document.
+                </xs:documentation>
+            </xs:annotation>
+        </xs:attribute>
     </xs:complexType>
-    <xs:element name="version" type="xs:string">
-        <xs:annotation>
-            <xs:documentation>
-                Indicates the version of the ALPS specification used in the document.
-            </xs:documentation>
-        </xs:annotation>
-    </xs:element>
     <xs:element name="doc" type="docType">
         <xs:annotation>
             <xs:documentation>
