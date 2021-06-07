@@ -83,6 +83,7 @@
             <xs:choice minOccurs="0" maxOccurs="unbounded">
                 <xs:element name="descriptor" type="descriptorType" minOccurs="0"/>
                 <xs:element name="doc" type="docType" minOccurs="0"/>
+                <xs:element name="link" type="linkType" minOccurs="0"/>
             </xs:choice>
         </xs:sequence>
         <!-- documented attribute -->
