@@ -118,8 +118,15 @@
                 },
                 "tag": {
                     "$ref": "definitions.json#/definitions/tag"
+                },
+                "title": {
+                    "$ref": "#/definitions/title"
                 }
-            }
+            },
+            "required": [
+                "rel",
+                "href"
+            ]
         },
         "link": {
             "oneOf": [
